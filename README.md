@@ -27,3 +27,22 @@ CONV2D->RELU->MAXPOOLING->CONV2D->RELU->MAXPOOLING->DROPOUT->CONV2D->RELU->MAXPO
 
 ### Độ chính xác dữ liệu train = 99.64% 
 ### Độ chính xác dữ liệu test    = 97.02%
+
+
+
+
+## Các bước 
+B1: Cài đặt python >= 3.10 và git
+B2: Mở terminal tại nơi bạn định lưu project và chạy lệnh: "https://github.com/trangtran-dev/ThuNguToText"
+B3: Tạo folder data trong project
+B4: Tải và giải nén các file và folder trong dữ liệu từ link https://www.kaggle.com/datamunge/sign-language-mnist và đưa vào folder data
+Vào trong project, chạy từ terminal bên trong project, hoặc chạy từ trình biên dịch VSCode 
+B5: chạy lệnh "pip install -r setup.txt"
+B6: Chạy file preprocessing_and_training.py. Sau khi chạy xong, ta được model sau train lưu ở file sign_langguage
+B7: Chạy file real_time.py, sẽ có 1 ảnh hướng dẫn các ký tự thủ ngữ và cửa sổ webcam, bạn làm theo anhrn hướng dẫn và đưa hành động mô tả thủ ngữ vào khung detect bên trong webcam, kết quả nhận diện sẽ hiển thị ra
+B8: Stop file real_time.py để ngừng chương trình
+
+
+
+
+
