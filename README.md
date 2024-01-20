@@ -33,7 +33,7 @@ CONV2D->RELU->MAXPOOLING->CONV2D->RELU->MAXPOOLING->DROPOUT->CONV2D->RELU->MAXPO
 
 ## Các bước 
 B1: Cài đặt python >= 3.10 và git.<br>
-B2: Mở terminal tại nơi bạn định lưu project và chạy lệnh: "https://github.com/trangtran-dev/ThuNguToText".<br>
+B2: Mở terminal tại nơi bạn định lưu project và chạy lệnh: "git clone https://github.com/trangtran-dev/ThuNguToText".<br>
 B3: Tạo folder data trong project.<br>
 B4: Tải và giải nén các file và folder trong dữ liệu từ link https://www.kaggle.com/datamunge/sign-language-mnist và đưa vào folder data.<br>
 Vào trong project, chạy từ terminal bên trong project, hoặc chạy từ trình biên dịch VSCode .<br>
